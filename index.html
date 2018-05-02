@@ -1,0 +1,54 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>jQuery UI Dialog - Modal form</title>
+    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="Modal.css">
+    
+</head>
+<body>
+
+    <div id="dialog-form" title="Create new user">
+        <p class="validateTips">All form fields are required.</p>
+
+        <form>
+            <fieldset>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" value="Ravi Kumar" class="text ui-widget-content ui-corner-all">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" value="ravi.kumar35ec94@xyz.com" class="text ui-widget-content ui-corner-all">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" value="xxxxxxx" class="text ui-widget-content ui-corner-all">
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+            </fieldset>
+        </form>
+    </div>
+
+
+    <div id="users-contain" class="ui-widget">
+        <h1>Existing Users:</h1>
+        <table id="users" class="ui-widget ui-widget-content">
+            <thead>
+                <tr class="ui-widget-header ">
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ravi Kumar</td>
+                    <td>ravi.kumar@xyz.com</td>
+                    <td>xxxxxxxx</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <button id="create-user">Create new user</button>
+    <script src="jquery-1.12.4.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="Modal.js"></script>
+</body>
+</html>
