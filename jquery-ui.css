@@ -98,7 +98,7 @@
 	padding: .5em .5em .5em .7em;
 	font-size: 100%;
 }
-.ui-accordion .ui-accordion-content {
+img {object-fit: cover;}.ui-accordion .ui-accordion-content {
 	padding: 1em 2.2em;
 	border-top: 0;
 	overflow: auto;
@@ -1088,8 +1088,7 @@ a.ui-button:active,
 	background-image: url("images/ui-icons_cc0000_256x240.png");
 }
 .ui-button .ui-icon {
-	background-image: url("images/ui-icons_777777_256x240.png");
-}
+	background-image: url("");}
 
 /* positioning */
 .ui-icon-blank { background-position: 16px 16px; }
